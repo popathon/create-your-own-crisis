@@ -1,3 +1,27 @@
 body {
-	background-color: #f7f8dc !important;
+	background-color: #E8E2E2 !important;
+}
+
+.venezuela, .venezuela a {
+	color: #0000FF;
+}
+
+.spain, .spain a {
+	color: #C1272D;
+}
+
+.videotwitterwrapper {
+	position: relative;
+}
+
+.twitterfeed {
+	position: absolute;
+	width: 40%;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+}
+
+ul, li {
+	list-style-type: none;
 }

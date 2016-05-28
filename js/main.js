@@ -1,3 +1,49 @@
+// show twitter feeds on hash tag click
+
+// Venezuela
+$('#tag-fueramaduro').click(function () {
+	console.log('tag-fueramaduro clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-fueramaduro').show();
+});
+$('#tag-quelediriasamaduro').click(function () {
+	console.log('tag-quelediriasamaduro clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-quelediriasamaduro').show();
+});
+$('#tag-crisisvenezuela').click(function () {
+	console.log('tag-crisisvenezuela clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-crisisvenezuela').show();
+});
+// clear tags
+$('#tag-clear-venezuela').click(function () {
+	$('.twitterfeed.venezuela').hide();
+});
+
+
+// Spain
+$('#tag-fuerarajoy').click(function () {
+	console.log('tag-fuerarajoy clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-fuerarajoy').show();
+});
+$('#tag-votapp').click(function () {
+	console.log('tag-votapp clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-votapp').show();
+});
+$('#tag-crisisespana').click(function () {
+	console.log('tag-crisisespana clicked!!!');
+	$('.twitterfeed').hide();
+	$('#feed-crisisespana').show();
+});
+// clear tags
+$('#tag-clear-spain').click(function () {
+	$('.twitterfeed.spain').hide();
+});
+
+
 // Slider (With JQuery)
 $('#ex1').slider({
 	formatter: function(value) {
